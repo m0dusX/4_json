@@ -4,7 +4,7 @@ This script allows you to prettify json data from text file.
 
 # Quickstart
 
-Place pprint_json.py somewhere. Then run command line, go to folder in which you moved script and execute it with one parameter containing path to file.
+Place pprint_json.py somewhere. Then run command line, go to folder in which you moved script and execute it with one parameter containing path to text file.
 
 Example of script launch on Linux, Python 3.5:
 
