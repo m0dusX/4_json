@@ -3,8 +3,9 @@ import sys
 
 
 def load_data(filepath):
-    with open(filepath, "r") as f:
-        return json.load(f)
+    f = open(filepath, "a")
+    result = json.load(f)
+    return result
 
 def pretty_print_json(data):
     print(json.dumps(data, indent=4, sort_keys=True))
