@@ -1,6 +1,5 @@
 import json
-import sys
-import pprint 
+import sys 
 
 
 def load_data(filepath):
