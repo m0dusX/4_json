@@ -14,7 +14,7 @@ $ python pprint_json.py <path to file>
 
 ```
 
-Output data:
+Output data example:
 ```json
 
 {
