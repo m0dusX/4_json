@@ -4,24 +4,41 @@ This script allows you to prettify json data from text file.
 
 # Quickstart
 
-Place password_strength.py and blacklist.txt in same folder. Then run command line, go to folder in which you moved script and execute it.
+Place pprint_json.py somewhere. Then run command line, go to folder in which you moved script and execute it with one parameter containing path to text file.
 
 Example of script launch on Linux, Python 3.5:
 
 ```#!bash
 
-$ python password_strength.py
+$ python pprint_json.py <path to file>
 
 ```
 
-Example of script work (with input):
+Output data example:
+```json
 
-```#!bash
-
-Please enter your name: Nikita
-Please enter your date of birth (in YYYY-MM-DD format): 1980-23-12
-Please enter your password: 2376234123nikita*A
-Your password rating: 7
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
 
 ```
 
